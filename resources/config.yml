@@ -1,0 +1,11 @@
+#     ___       __       ______   ____     ______   _____    
+#    /   |     / /      / ____/  / __ \   /_  __/  / ___/    
+#   / /| |    / /      / __/    / /_/ /    / /     \__ \     
+#  / ___ |   / /___   / /___   / _, _/    / /     ___/ /     
+# /_/  |_|  /_____/  /_____/  /_/ |_|    /_/     /____/      
+# BY DARKNESSPL
+
+alertTitle: "ALERT" # alert name, e.g. ip 
+alertColor: "§l§c" # title color for alert title 
+messageColor: "§l§f" # the color of the message that will be written in the /alert command 
+                                                          
