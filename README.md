@@ -26,8 +26,10 @@
 ![](https://github.com/darknesslocalhost/Alerts-PMMP-5/blob/main/assets/2.gif)
 
 **MEMBER WITHOUT OP / PERMISSION**
+![](https://github.com/darknesslocalhost/Alerts-PMMP-5/blob/main/assets/2.gif)
 
 **CONFIG PLUGIN**
+![](https://github.com/darknesslocalhost/Alerts-PMMP-5/blob/main/assets/3.gif)
 
 
 
