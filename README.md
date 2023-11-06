@@ -1,3 +1,5 @@
+# ALERTS FOR POCKETMINE 5
+
 **Plugin Name:** Alerts
 
 **Description:** The "Alerts" plugin, created by author DarknessPL, allows administrators on a Minecraft: Bedrock Edition server running PocketMine-MP 5 to send alerts to players. This plugin provides the ability to customize the colors of alerts and messages to your preferences.
