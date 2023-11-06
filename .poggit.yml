@@ -5,4 +5,5 @@ branches:
 projects:
   Alerts-PMMP-5:
     path: ""
+    icon: "icon.png"
 ...
