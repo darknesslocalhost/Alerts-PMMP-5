@@ -21,10 +21,13 @@
 1. In-game, use the command `/alert <message>` to send an alert to players.
 2. Customize the alert name, as well as the colors of alerts and messages in the configuration file.
 
-**GIFS**
 
-**MEMBER FROM OP**
+**MEMBER FROM OP / PERMISSION**
 ![](https://github.com/darknesslocalhost/Alerts-PMMP-5/blob/main/assets/2.gif)
+
+**MEMBER WITHOUT OP / PERMISSION**
+
+**CONFIG PLUGIN**
 
 
 
