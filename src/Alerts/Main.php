@@ -15,7 +15,7 @@ class Main extends PluginBase {
 	public function onEnable(): void {
 		$this->getLogger()->info("Plugin enabled");
 		$this->saveResource("config.yml");
-		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
+		$this->config = new PluginBase->getConfig() . "config.yml", Config::YAML);
 	}
 	public function onDisable(): void {
 		$this->getLogger()->info("Plugin disabled");
