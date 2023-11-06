@@ -17,6 +17,7 @@ class Main extends PluginBase {
 		$this->getLogger()->info("Plugin enabled");
 
 		$this->saveResource("config.yml");
+		
 		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 	}
 
