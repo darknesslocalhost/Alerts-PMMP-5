@@ -15,15 +15,12 @@ class Main extends PluginBase {
     private $config;
 
     public function onEnable(): void {
-        $this->getLogger()->info("Plugin enabled");
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
     }
 
     public function onDisable(): void {
-        $this->getLogger()->info("Plugin disabled");
         $this->config->save();
-        $this->getLogger()->info("Config saved");
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
