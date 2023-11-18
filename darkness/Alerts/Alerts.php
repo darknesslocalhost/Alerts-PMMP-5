@@ -11,7 +11,7 @@ use pocketmine\command\ConsoleCommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 
-class Main extends PluginBase {
+class Alerts extends PluginBase {
     private $config;
 
     public function onEnable(): void {
