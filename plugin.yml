@@ -1,5 +1,5 @@
 name: Alerts
-main: Alerts\Main
+main: darkness\Alerts\Main
 author: darknesspl
 version: 1.0
 api: 5.0.0
@@ -7,9 +7,9 @@ api: 5.0.0
 commands:
   alert:
    description: Command alert
-   permission: alert.command
+   permission: darknesspl.alerts.command
 
 permissions:
- alert.command:
+ darknesspl.alerts.command:
     description: Permission for alert command 
     default: op
