@@ -1,13 +1,11 @@
 <?php
 
-namespace src\darkness\Alerts;
+namespace darkness\Alerts;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\player\Player;
-use pocketmine\server\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\ConsoleCommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 
@@ -20,7 +18,9 @@ class Alerts extends PluginBase {
     }
 
     public function onDisable(): void {
-        $this->config->save();
+        if($this->config !== null) {
+            $this->config->save();
+        }
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
