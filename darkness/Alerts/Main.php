@@ -1,6 +1,6 @@
 <?php
 
-namespace darkness\Alerts\Main;
+namespace darkness\Alerts;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\player\Player;
