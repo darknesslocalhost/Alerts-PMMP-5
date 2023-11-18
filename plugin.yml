@@ -1,5 +1,5 @@
 name: Alerts
-main: darkness\Alerts\Main
+main: darkness\Alerts\Alerts
 author: darknesspl
 version: 1.0
 api: 5.0.0
